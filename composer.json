@@ -1,0 +1,43 @@
+{
+    "name": "ournameismud/buggles",
+    "description": "Simple video fieldtype for Craft 3",
+    "type": "craft-plugin",
+    "version": "0.0.1",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "buggles"
+    ],
+    "support": {
+        "docs": "https://github.com/ournameismud/buggles/blob/master/README.md",
+        "issues": "https://github.com/ournameismud/buggles/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "@cole007",
+            "homepage": "http://ournameismud.co.uk/"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "ournameismud\\buggles\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Buggles",
+        "handle": "buggles",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/ournameismud/buggles/master/CHANGELOG.md",
+        "components": {
+            "buggles": "ournameismud\\buggles\\services\\Video"
+        },
+        "class": "ournameismud\\buggles\\Buggles"
+    }
+}
