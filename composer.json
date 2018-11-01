@@ -2,7 +2,7 @@
     "name": "ournameismud/buggles",
     "description": "Simple video fieldtype for Craft 3",
     "type": "craft-plugin",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "keywords": [
         "craft",
         "cms",
